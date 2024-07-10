@@ -19,6 +19,12 @@ body{
     border: 2px solid palevioletred;
 } */
 
+main section{
+    margin: 0 auto;
+    margin-top: 170px;
+    max-width: 1140px;
+}
+
 .text-center{
     text-align: center;
 }
@@ -85,10 +91,9 @@ body{
 .why{
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 95px;
-    margin-top: 170px;
 }
 
-.why-container{
+.why-container, .inspiration-info, .current-target-info{
     max-width: 850px;
     margin: 0 auto;
 }
@@ -113,21 +118,63 @@ body{
     padding: 16px 0;
 }
 
-.development-vision-info-description{
-    padding: 16px 0;
-    margin-bottom: 15px;
-}
-
 /* inpiration section work  */
-
-
-.inspiration-info{
-    max-width: 850px;
-    margin: 0 auto;
+.inspiration{
+    margin-top: 90px;
 }
 
 .inspiration-video{
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+    background-color: white;
+}
+
+
+/* current target section  */
+
+.targets-container{
+    display: flex;
+    gap: 25px;
+}
+
+.target{
+    max-width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.target-one{
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-two{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.target-three{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.target-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.target-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.target-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration: underline;
 }
