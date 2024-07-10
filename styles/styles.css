@@ -178,3 +178,54 @@ main section{
     line-height: 19px;
     text-decoration: underline;
 }
+
+
+/* support section work  */
+
+#support{
+    height: 315px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 48px 64px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 16px 0;
+}
+
+.support-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+input[type="text"]{
+    padding: 19px 20px;
+    width: 550px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 19px;
+}
+
+input[type="submit"]{
+    padding: 17px 20px;
+    width: 120px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600px;
+}
